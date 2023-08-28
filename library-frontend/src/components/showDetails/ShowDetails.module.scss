@@ -1,0 +1,31 @@
+.showdetailWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    .detailContainer{
+        width: 80%;
+        display: flex;
+       align-items: center;
+       
+
+       .titleName{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+    }
+        span{
+            font-size: 16px;
+            color: gray;
+        }
+        p{
+            font-size: 16px;
+            color: black;
+            font-weight: 700;
+        }
+    }
+}

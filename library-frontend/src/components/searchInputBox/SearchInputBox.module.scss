@@ -1,0 +1,25 @@
+.searchAreaDivLLP {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #000; */
+  border: 0.930687px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 6.51481px;
+  justify-content: center;
+  /* border-radius: 7px; */
+  background-color: #ffffff;
+}
+
+.searchAreaDivLLP img {
+  margin-left: 10px;
+  width: 20px;
+  background-color: #ffffff;
+}
+
+.searchAreaDivLLP input {
+  width: 90%;
+  padding: 7px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
