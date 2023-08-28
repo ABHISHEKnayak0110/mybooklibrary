@@ -15,7 +15,6 @@ const getBooks =  asyncHandler(async(req, res) => {
 const addBooks = asyncHandler(async(req, res) => {
     console.log(req.body)
     const {title ,author,description, genre } = req.body
-    console.log(title, author , "hhh")
     if(!title || !author){
         res.status(400)
         throw new Error("All fileds are mandatory")
@@ -84,7 +83,6 @@ const deleteBook =asyncHandler(async (req, res) => {
 //@Acess public
 const searchBook = asyncHandler(async (req, res) => {
      const {name}  = req.query
-     console.log("hey" , name, req.query)
      let book 
      if(name){
      book = await booksModels.find({
